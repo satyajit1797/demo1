@@ -28,6 +28,7 @@ public class myfirstprog {
 		WebElement next=driver.findElement(By.xpath(""));
 		Select s=new Select(next);
 		s.selectByVisibleText("pune");
+		System.out.println("");
 		
 				
 		driver.close();
